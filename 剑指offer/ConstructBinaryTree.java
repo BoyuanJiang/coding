@@ -73,9 +73,9 @@ public class ConstructBinaryTree {
         {
             System.out.println(root.val);
             if (root.left!=null)
-                printtree(root.left);
+                printtree11(root.left);
             if (root.right!=null)
-                printtree(root.right);
+                printtree11(root.right);
         }
     }
 
@@ -86,10 +86,10 @@ public class ConstructBinaryTree {
         {
 
             if (root.left!=null)
-                printtree(root.left);
+                printtree12(root.left);
             System.out.println(root.val);
             if (root.right!=null)
-                printtree(root.right);
+                printtree12(root.right);
         }
     }
 
@@ -100,10 +100,10 @@ public class ConstructBinaryTree {
         {
 
             if (root.left!=null)
-                printtree(root.left);
+                printtree13(root.left);
 
             if (root.right!=null)
-                printtree(root.right);
+                printtree13(root.right);
             System.out.println(root.val);
         }
     }
