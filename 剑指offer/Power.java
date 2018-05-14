@@ -21,6 +21,7 @@ public class Power {
     }
 
     public static double Power1(double base, int exponent){
+        // 一个更好的解法, 利用P93的递推公式
         int exp=exponent;
         double res=1.0;
         if (exponent==0)
